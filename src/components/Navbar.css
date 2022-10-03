@@ -1,0 +1,39 @@
+:root {
+    --lime: #dce7cf;
+    --darkgrey: #8c8e88;
+    --black:#000000;
+    --darkblue:#1E2833;
+
+  }
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+.bg-img{
+    background-image: url(../assets/BannerImageFirst.png);
+}
+.navbarl{
+    display:block;
+    margin-top: 35px;
+    margin-left:50px;
+    position:absolute;
+}
+.navbarl ul{
+    padding:0;
+    margin:0;
+    gap: 42px;
+    list-style: none;
+   
+    display: flex;
+}
+.navbarl a{
+    color:inherit;
+    text-decoration: none;
+    color:var(--darkgrey);
+}
+.navbarl li.active{
+    color:var(--lime);
+
+}
