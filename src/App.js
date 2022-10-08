@@ -9,15 +9,15 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div>
-      <nav>Our NavBar</nav>
+      <Navbar />
       <Routes>
-        <Route path="/Home" element={<Home />} />
-        <Route path="/AboutUs" element={<AboutUs />} />
-        <Route path="/ContactUs" element={<ContactUs />} />
-        <Route path="/Plants" element={<Plants />} />
+        <Route path="/" exact element={<Home />} />
+        <Route path="/AboutUs" exact element={<AboutUs />} />
+        <Route path="/ContactUs" exact element={<ContactUs />} />
+        <Route path="/Plants" exact element={<Plants />} />
       </Routes>
 
-      <footer>Our Footer</footer>
+      {/* <footer>Our Footer</footer> */}
     </div>
   );
 }
