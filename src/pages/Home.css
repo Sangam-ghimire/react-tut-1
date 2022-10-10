@@ -1,0 +1,222 @@
+#plantsection{
+    box-sizing: border-box;
+    height: 300px;
+    padding:55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 31px;
+    background-color: #f9f8f6;
+}
+#Indoor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 422px;
+    height: 190px;
+    gap: 10px;   
+}
+#Outdoor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 422px;
+    height: 190px;
+    gap: 10px;  
+
+}
+#Decoration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 422px;
+    height: 190px;
+    gap: 10px; 
+
+}
+#majortext1{
+    text-transform: capitalize;
+
+}
+#minortext1{
+    margin-top: 4px;
+    text-transform: capitalize;
+}/*completed plant portion*/
+ #fheading{
+    font-family:'Gilroy-SemiBold';
+    font-size: 22px;
+    letter-spacing: 00.05em;
+    text-transform: uppercase;
+    color: black;
+    padding-left: 50px;
+    padding-top: 42px;
+    padding-bottom: 39px;
+ }
+ #fimage{
+    display: flex;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+    /* height: 281px;
+    width: 228px; */
+ }
+ .fcard{
+    height: 281px;
+    width: 210px;
+    background-color: white;
+    border: 1px solid rgba(196,196,196,0.19);
+    box-shadow: 0px 3px 4px rgba(0,0,0,0.2);
+    border-radius: 5px;
+ }
+ #fimgntext{
+    display: flex;
+    flex-direction: column;
+ }
+ #ffname{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Gilroy-medium';
+    font-size: 22px;
+    color:#253D4E;
+ }
+#fftype{
+text-align: center;
+font-size: 13px;
+font-weight: 300;
+font-family: 'Poppins';
+text-transform: capitalize;
+color:#ADADAD;
+}
+#discountribbon{
+    width: 78px;
+    height: 27 px;
+    background-color: #FFD480;
+    display: flexbox;
+    text-align: center;
+    border-radius: 3px 0px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+#offerings{
+    background-color:#F9F8F6;
+    margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 43px;
+    font-weight: 700;
+    box-sizing: border-box;
+    
+}
+#oHeading{
+    padding: 26px;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    color: black;
+    
+}
+#text{
+    text-align: center;
+    text-transform: capitalize;
+    width: 982px;
+    height: 91px;
+    margin:auto;
+    font-size: 17px;
+    font-weight: 300;
+    color: #8C8E88;
+}
+#products{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    
+
+
+} 
+.product{
+    width: 370px;
+    height: 465px;
+    box-shadow: 0px 24px 60px rgba(51, 51, 51, 0.16);
+}
+#plantte{
+    width: 322px;
+    height: 32px;
+
+    margin:auto;
+    padding-top: 24px;
+    font-family: 'Josefin Sans';
+    color:#333333;
+    font-size: 24px;
+    font-weight: 700;
+}
+#planttee{
+    width: 322px;
+    height: 24px;
+    margin:auto;
+    font-family: 'Josefin Sans';
+    color:#999999;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+#plantteee{
+    width: 322px;
+    margin: 24px;;
+    font-family: 'Josefin Sans';
+    color:#333333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#colorbar{
+    display: flexbox;
+    align-items: center;
+    width: 324px;
+    height: 8px;
+    background-color: #618A43;
+    margin:auto;
+    margin-top :24px;
+}
+#colorbar2{
+    display: flexbox;
+    align-items: center;
+    width: 324px;
+    height: 8px;
+    background-color: #FFB800;
+    margin:auto;
+    margin-top :24px;
+}#colorbar3{
+    display: flexbox;
+    align-items: center;
+    width: 324px;
+    height: 8px;
+    background-color: #7B61FF;
+    margin:auto;
+    margin-top :24px;
+}
+#button{
+    border: 1px solid #336EE1 ;
+    color: #336EE1;
+    text-transform: uppercase;
+    width:270px;
+    height: 81.04px;
+    margin: auto;
+    margin-top: 96.5px;
+    margin-bottom: 137.96px;
+    text-align: center;
+}
+
