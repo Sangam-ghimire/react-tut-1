@@ -1,51 +1,31 @@
 #plantsection{
     box-sizing: border-box;
     height: 300px;
-    padding:55px;
+    padding-top:55px;
+    padding-bottom: 55px;
+    padding-left: auto;
+    padding-right: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     gap: 31px;
     background-color: #f9f8f6;
+    flex-wrap: wrap;
+ 
 }
-#Indoor{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    width: 422px;
-    height: 190px;
-    gap: 10px;   
-}
-#Outdoor{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    width: 422px;
-    height: 190px;
-    gap: 10px;  
 
-}
-#Decoration{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    width: 422px;
-    height: 190px;
-    gap: 10px; 
-
-}
-#majortext1{
+/*completed plant portion */
+#text{
+    text-align: center;
     text-transform: capitalize;
-
+    width: 982px;
+    height: 91px;
+    margin:auto;
+    font-size: 17px;
+    font-weight: 300;
+    color: #8C8E88;
 }
-#minortext1{
-    margin-top: 4px;
-    text-transform: capitalize;
-}/*completed plant portion*/
  #fheading{
     font-family:'Gilroy-SemiBold';
     font-size: 22px;
@@ -64,19 +44,19 @@
     /* height: 281px;
     width: 228px; */
  }
- .fcard{
+ /* .fcard{
     height: 281px;
     width: 210px;
     background-color: white;
     border: 1px solid rgba(196,196,196,0.19);
     box-shadow: 0px 3px 4px rgba(0,0,0,0.2);
     border-radius: 5px;
- }
- #fimgntext{
+ } */
+ /* #fimgntext{
     display: flex;
     flex-direction: column;
- }
- #ffname{
+ } */
+ /* #ffname{
     text-align: center;
     text-transform: capitalize;
     font-family: 'Gilroy-medium';
@@ -90,8 +70,8 @@ font-weight: 300;
 font-family: 'Poppins';
 text-transform: capitalize;
 color:#ADADAD;
-}
-#discountribbon{
+} */
+/* #discountribbon{
     width: 78px;
     height: 27 px;
     background-color: #FFD480;
@@ -102,7 +82,7 @@ color:#ADADAD;
     font-size: 15px;
     font-weight: 500;
     font-family: "Quicksand";
-}
+} */
 
 #offerings{
     background-color:#F9F8F6;
@@ -127,25 +107,14 @@ h1{
     color: black;
     
 }
-#text{
-    text-align: center;
-    text-transform: capitalize;
-    width: 982px;
-    height: 91px;
-    margin:auto;
-    font-size: 17px;
-    font-weight: 300;
-    color: #8C8E88;
-}
+
 #products{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap:50px;
-    
-
-
+    flex-wrap: wrap;
 } 
 .product{
     width: 370px;
@@ -182,32 +151,6 @@ h1{
     font-weight: 400;
 }
 
-#colorbar{
-    display: flexbox;
-    align-items: center;
-    width: 324px;
-    height: 8px;
-    background-color: #618A43;
-    margin:auto;
-    margin-top :24px;
-}
-#colorbar2{
-    display: flexbox;
-    align-items: center;
-    width: 324px;
-    height: 8px;
-    background-color: #FFB800;
-    margin:auto;
-    margin-top :24px;
-}#colorbar3{
-    display: flexbox;
-    align-items: center;
-    width: 324px;
-    height: 8px;
-    background-color: #7B61FF;
-    margin:auto;
-    margin-top :24px;
-}
 #button{
     border: 1px solid #336EE1 ;
     color: #336EE1;

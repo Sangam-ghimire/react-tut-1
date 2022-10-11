@@ -1,0 +1,57 @@
+.product{
+    width: 370px;
+    height: 465px;
+    box-shadow: 0px 24px 60px rgba(51, 51, 51, 0.16);
+}
+#products,#products2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+} 
+#plantte{
+    width: 322px;
+    height: 32px;
+
+    margin:auto;
+    padding-top: 24px;
+    font-family: 'Josefin Sans';
+    color:#333333;
+    font-size: 24px;
+    font-weight: 700;
+}
+#planttee{
+    width: 322px;
+    height: 24px;
+    margin:auto;
+    font-family: 'Josefin Sans';
+    color:#999999;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+#plantteee{
+    width: 322px;
+    margin: 24px;;
+    font-family: 'Josefin Sans';
+    color:#333333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#colorbar,#colorbar2,#colorbar3{
+    display: flexbox;
+    align-items: center;
+    width: 324px;
+    height: 8px;
+    background-color: #618A43;
+    margin:auto;
+    margin-top :24px;
+}
+#colorbar2{
+    background-color: #FFB800;
+}
+#colorbar3{
+    background-color: #7B61FF;}
+

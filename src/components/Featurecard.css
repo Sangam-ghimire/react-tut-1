@@ -1,0 +1,39 @@
+.fcard{
+    height: 281px;
+    width: 210px;
+    background-color: white;
+    border: 1px solid rgba(196,196,196,0.19);
+    box-shadow: 0px 3px 4px rgba(0,0,0,0.2);
+    border-radius: 5px;
+ }
+ #discountribbon{
+    width: 78px;
+    height: 27 px;
+    background-color: #FFD480;
+    display: flexbox;
+    text-align: center;
+    border-radius: 3px 0px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+#fimgntext{
+    display: flex;
+    flex-direction: column;
+ }
+ #ffname{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Gilroy-medium';
+    font-size: 22px;
+    color:#253D4E;
+ }
+#fftype{
+text-align: center;
+font-size: 13px;
+font-weight: 300;
+font-family: 'Poppins';
+text-transform: capitalize;
+color:#ADADAD;
+}

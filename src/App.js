@@ -4,6 +4,7 @@ import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import Plants from "./pages/Plants";
 import Navbar from "./components/Navbar";
+
 import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
 

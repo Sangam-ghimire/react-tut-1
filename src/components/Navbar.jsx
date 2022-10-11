@@ -3,12 +3,14 @@ import "./Navbar.css";
 import { ReactComponent as Logo } from "../assets/Logo.svg";
 import { NavLink } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <div id="navback">
-      <div className="sangam" >
+      <div className="sangam">
         <div className="navbarl">
-          <div className="logo"><Logo /></div>
+          <div className="logo">
+            <Logo />
+          </div>
           <nav>
             <ul className="navbarlul">
               <li>

@@ -1,0 +1,89 @@
+#contactdetails{
+    display: flex;
+    flex-direction: row;
+    padding:96px auto 96px auto;
+    height: 362px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #f4f4f4;
+}
+#first{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#firsta{
+color: #1E2833;
+align-self: stretch;
+font-family: "Inter";
+font-size: 24px;
+}
+#firstb{
+    color:#1E2833;
+    font-weight: 600;
+    font-size: 36px;
+}
+#second{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+#seconda{
+    display: flex;
+    flex-direction: column;
+}
+#secondai,#secondbi,#thirdai,#thirdbi{
+    text-transform: capitalize;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 24px;
+    color:#1E2833;
+
+}
+#seoncdaii,#secondbii,#thirdaii,#thirdbii{
+    font-family: 'Inter';
+    font-size:16px;
+    color:#1E2833;
+
+
+}
+#secondb{
+    display: flex;
+    flex-direction: column;
+}
+#third
+{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+#thirda{
+    display: flex;
+    flex-direction: column;
+
+}
+#thirdb{
+    display: flex;
+    flex-direction: column;
+
+}
+#heading{
+    margin:auto;
+    text-align: center;
+    font-size: 37px;
+    font-weight: bolder;
+    margin: 96px auto 82px auto;
+
+}
+#headingi{
+    color:#AABC94;
+}
+#socialmedia{
+    height: 783px;
+
+}
+#team{
+    height: 790px;
+
+}
