@@ -33,30 +33,35 @@ const Home = () => {
             imageurl="piecelily.png"
             nameplant="Piece lily"
             typeplant="Indoor Plant"
+            discountribbon="discountribbon"
+          />
+         <Featurecard
+            distext="save 4%"
+            imageurl="piecelily.png"
+            nameplant="Piece lily"
+            typeplant="Indoor Plant"
+            discountribbon="discountribbon"
+          />
+         <Featurecard
+            distext="save 4%"
+            imageurl="piecelily.png"
+            nameplant="Piece lily"
+            typeplant="Indoor Plant"
+            discountribbon="discountribbon"
           />
           <Featurecard
             distext="save 4%"
             imageurl="piecelily.png"
             nameplant="Piece lily"
             typeplant="Indoor Plant"
+            discountribbon="discountribbon"
           />
-          <Featurecard
+         <Featurecard
             distext="save 4%"
             imageurl="piecelily.png"
             nameplant="Piece lily"
             typeplant="Indoor Plant"
-          />
-          <Featurecard
-            distext="save 4%"
-            imageurl="piecelily.png"
-            nameplant="Piece lily"
-            typeplant="Indoor Plant"
-          />
-          <Featurecard
-            distext="save 4%"
-            imageurl="piecelily.png"
-            nameplant="Piece lily"
-            typeplant="Indoor Plant"
+            discountribbon="discountribbon"
           />
         </div>
         {/* Completed by resizing card due to small screen size */}

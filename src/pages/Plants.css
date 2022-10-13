@@ -1,0 +1,74 @@
+#explore{
+    padding-left: 50px;
+    padding-top: 31px;
+    height: 332px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f0f3f7;
+}
+#cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding-top: 23px;
+}
+/*Explore cards completed*/
+#newproducts,#featuedproducts,#popularproducts{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+}
+#displayrow,#marketingmsg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    flex-wrap: wrap;
+}
+#rowheading{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 51px;
+/* or 204% */
+
+letter-spacing: 0.2px;
+
+color: rgba(0, 0, 0, 0.7);
+}
+#mheading{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 32px;
+color: #000000;
+}
+#mmessage{
+width: 830px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+
+color: #000000;
+}
+.displayrow:hover{
+    /* background-color: #000000; */
+}
+/* .newproducts:hover{background-color: #000000;} */
+.displayrow:hover >.newproducts:hover>.fcard:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 10;
+    background-color: #000000;
+   
+ }
+ .displayrow:hover > .fcard:not(:hover) {
+    opacity: 0.5;
+  }
+
